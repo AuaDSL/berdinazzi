@@ -1,0 +1,168 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	font-family: "courier", Helvetica, Arial, Verdana;
+}
+header {
+	height: 60px;
+	background-color: #000000;
+}
+a.lg {
+	text-decoration: none;
+	float: right;
+	text-align: right;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+section {
+	display: flex;
+	flex-direction: column;
+}
+aside {
+	background-color: #daa520;
+	height: 50px;
+}
+a.rs {
+	text-decoration: none;
+	float: right;
+	text-align: right;
+    display: inline-block;
+    margin-top: 13px;
+    margin-right: 10px;
+
+}
+a.nave {
+	text-decoration: none;
+	background-color: black;
+	color: #daa520;
+	float: left;
+	text-align: left;
+	display: inline-block;
+	padding: 6px 7px;
+    margin-top: 11px;
+    margin-left: 7px;
+}
+main {
+	text-align: center;
+	background-color: #000000;
+}
+img {
+	vertical-align: middle;
+}
+h1 {
+	margin: 0;
+	margin-top: 30px;
+	color: #daa520;
+	font-style: italic;
+	font-size: 60px;
+}
+h2 {
+	margin: 0;
+	margin-top: 30px;
+	color: #daa520;
+	font-style: italic;
+	font-size: 40px;
+	text-align: center;
+}
+h3 {
+	margin: 0;
+	margin-top: 30px;
+	margin-left: 70px;
+	color: #daa520;
+	text-align: left;
+	font-style: italic;
+	font-size: 20px;
+}
+p.main {
+	font-size: 20px;
+	color: #c0c0c0;
+	margin: 30px;
+	text-align: center;
+	margin-left: 70px;
+	margin-right: 70px;
+}
+article {
+	margin: 30px;
+}
+article.trad {
+	margin: 30px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+p.tec {
+	text-align: justify;
+}
+p {
+	font-size: 15px;
+	color: #c0c0c0;
+	margin: 0;
+	margin-left: 40px;
+	margin-right: 40px;
+	text-align: left
+}
+table {
+	border-spacing: 50px 3px;
+	margin: auto;
+	width: 95%;
+}
+th {
+	text-align: center;
+	color: #c0c0c0;
+}
+td {
+	text-align: center;
+	color: #c0c0c0;
+}
+footer {
+	margin: 0;
+	font-size: 11px;
+	text-align: center;
+	height: 4vh;
+	background-color: #daa520;
+	color: #000000;
+}
+.trab {
+	text-align: left;
+}
+fieldset {
+    border: 0;
+    font-size: 1em;
+    color: #daa520;
+}
+input, select, textarea, button {
+    font-size: 1em;
+    color: #000000;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+.campo {
+    margin-bottom: 1em;
+}
+.campo label {
+    margin-bottom: 0.2em;
+    color: #daa520;
+    margin-left: 70px;
+}
+.campo input[type="text"], .campo input[type="email"], .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #daa520;
+    box-shadow: 2px 2px 2px #daa520;
+}
+.campo select option {
+    padding-right: 1em;
+}
+.botao {
+    font-size: 1em;
+    background: #c0c0c0;
+    border: 0;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.2em 0.6em;
+}
+.botao, select{
+    cursor: pointer;
+}
